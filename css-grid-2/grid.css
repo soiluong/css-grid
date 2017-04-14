@@ -1,0 +1,58 @@
+.header {
+  background-color: hsla(60, 33%, 25%, 0.4);
+  grid-area: head;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row: 1 / 2;
+}
+
+.menu {
+  background-color: hsla(120, 33%, 25%, 0.4);
+  grid-area: menu;
+  grid-column: 4 / 13;
+  grid-row: 1 / 2;
+}
+
+.main {
+  background-color: hsla(180, 33%, 25%, 0.4);
+  grid-area: main;
+  grid-column: 1 / 10;
+  grid-row: 2 / 3;
+}
+
+.article {
+  background-color: hsla(240, 33%, 25%, 0.4);
+  grid-area: arti;
+  grid-column: 1 / span 9;
+  grid-row: 3 / 4;
+}
+
+.sidebar {
+  background-color: hsla(300, 33%, 25%, 0.4);
+  grid-area: side;
+  grid-column: 10 / 13;
+  grid-row: 2 / 4;
+}
+
+.footer {
+  background-color: hsla(360, 33%, 25%, 0.4);
+  grid-area: foot;
+  grid-column: 1 / span 11;
+  grid-row: 4 / 5;
+}
+
+.container {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E %3Crect x='0' y='0' width='80' height='80' style='fill:blue;stroke:red;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.3' /%3E   %3C/svg%3E");
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 80px);
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.box {
+  border: 1px solid hsla(0, 0%, 0%, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+}

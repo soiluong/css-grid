@@ -1,0 +1,51 @@
+.header {
+  background-color: hsla(60, 33%, 25%, 0.4);
+  grid-area: head;
+}
+
+.menu {
+  background-color: hsla(120, 33%, 25%, 0.4);
+  grid-area: menu;
+}
+
+.main {
+  background-color: hsla(180, 33%, 25%, 0.4);
+  grid-area: main;
+}
+
+.article {
+  background-color: hsla(240, 33%, 25%, 0.4);
+  grid-area: arti;
+}
+
+.sidebar {
+  background-color: hsla(300, 33%, 25%, 0.4);
+  grid-area: side;
+}
+
+.footer {
+  background-color: hsla(360, 33%, 25%, 0.4);
+  grid-area: foot;
+}
+
+.container {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E %3Crect x='0' y='0' width='80' height='80' style='fill:blue;stroke:red;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.3' /%3E   %3C/svg%3E");
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 80px);
+	grid-template-areas:
+  "head head head head head head head head head head head head"
+  "menu menu menu menu menu menu menu menu menu menu menu menu"
+  "main main main main main main main main main side side side"
+  "arti arti arti arti arti arti arti arti arti side side side"
+	"foot foot foot foot foot foot foot foot foot foot foot foot";
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.box {
+  border: 1px solid hsla(0, 0%, 0%, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+}
