@@ -25,3 +25,11 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 
 And this very cool game that helps you get to grips with the CSS grid syntax
 http://cssgridgarden.com/
+
+Of course, don't forget the MDN documentation!
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+And the specification:
+https://www.w3.org/TR/css3-grid-layout/
+
+Happy reading!!!
