@@ -19,6 +19,15 @@ Same as Example 1 but the nav is embedded into the header and using more
 properties that comes with CSS grid, which include `grid-column-start`,
 `grid-column-end` and the `span` value.
 
+## When to use Flexbox and Grid?
+Flexbox is one dimensional which is good for presenting your content either in
+a row OR a column, and you want to distribute space.
+
+If you find yourself defining the width of each item of your flexbox then grid
+is the way to go. Grid is two dimensional so you can control both row and column
+from the parent. Also as seen in Example 2 the nav section overlapped with the
+header section. 
+
 ## Links
 For more information, check out this link
 https://css-tricks.com/snippets/css/complete-guide-grid/
