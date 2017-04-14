@@ -19,7 +19,7 @@ Same as Example 1 but the nav is embedded into the header and using more
 properties that comes with CSS grid, which include `grid-column-start`,
 `grid-column-end` and the `span` value.
 
-
+## Links
 For more information, check out this link
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
